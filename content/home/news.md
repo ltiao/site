@@ -16,9 +16,9 @@ content:
   # Filter on criteria
   filters:
     folders:
-      - news
+      - post
     tag: ''
-    category: ''
+    category: news
     publication_type: ''
     author: ''
     exclude_featured: false

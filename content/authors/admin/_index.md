@@ -10,7 +10,7 @@ last_name: Tiao
 superuser: true
 
 # Role/position/tagline
-role: Machine Learning Researcher / PhD Candidate
+role: Machine Learning Researcher (PhD Candidate)
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -24,9 +24,9 @@ bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Probabilistic Machine Learning
+  - Gaussian Processes
+  - Approximate Bayesian Inference
 
 # Education to show in About widget
 education:
@@ -79,7 +79,7 @@ email: louis.tiao@sydney.edu.au
 highlight_name: true
 ---
 
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Louis Tiao is a machine learning researcher and PhD candidate at the University of Sydney. His research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 

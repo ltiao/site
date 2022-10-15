@@ -18,7 +18,7 @@ content:
     folders:
       - post
     tag: ''
-    category: ''
+    category: technical
     publication_type: ''
     author: ''
     exclude_featured: false

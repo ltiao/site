@@ -11,7 +11,8 @@ tags:
 - Gaussian Processes
 - TensorFlow Probability
 - Machine Learning
-categories: []
+categories:
+- technical
 date: 2021-02-18T19:13:23+01:00
 lastmod: 2021-02-18T19:13:23+01:00
 featured: false
