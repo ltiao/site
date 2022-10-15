@@ -7,16 +7,16 @@ widget: collection
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 55
 
-title: Recent Posts
+title: News
 subtitle:
 
 content:
   # Filter on criteria
   filters:
     folders:
-      - post
+      - news
     tag: ''
     category: ''
     publication_type: ''
@@ -33,6 +33,6 @@ content:
 
 design:
   # Choose a view for the listings:
-  view: card
+  view: compact
   columns: '2'
 ---

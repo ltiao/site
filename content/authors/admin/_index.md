@@ -58,6 +58,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/ltiao
+    label: Follow me on GitHub
+    display:
+      header: true
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/ltiao
