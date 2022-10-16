@@ -25,8 +25,8 @@ bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
 # Interests to show in About widget
 interests:
   - Probabilistic Machine Learning
-  - Gaussian Processes
   - Approximate Bayesian Inference
+  - Gaussian Processes
 
 # Education to show in About widget
 education:
