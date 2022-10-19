@@ -324,7 +324,7 @@ Now, there are a few key objects of interest.
 First, the 
 optimal variational distribution $q\_{\boldsymbol{\phi}^{\star}}(\mathbf{u})$, 
 which is required to compute the predictive distribution $q\_{\boldsymbol{\phi}^{\star}}(\mathbf{f}) = \int p(\mathbf{f}|\mathbf{u}) q\_{\boldsymbol{\phi}^{\star}}(\mathbf{u}) \\, \mathrm{d}\mathbf{u}$,
-but may also be of independent interest.
+but which may also be of independent interest.
 Second, the ELBO, the objective with respect to which the inducing input 
 locations $\mathbf{Z}$ are optimized.
 
@@ -362,9 +362,8 @@ $$
 $$
 This can be verified by applying simple rules for marginalizing Gaussians.
 Again, refer to [Appendix VI]({{< relref "#vi" >}}) for complete derivations.
-
 Refer to [Appendix VII]({{< relref "#vii" >}}) for a numerically efficient and 
-robust method for computing these.
+robust method for computing these quantities.
 
 ###  Non-Gaussian Likelihoods
 
@@ -740,17 +739,24 @@ $$
 
 #### SGPR Implementation Details
 
-{{% callout warning %}}
-Work in progress.
-{{% /callout %}}
+Here we provide implementation details that simultaneously minimizes the 
+computational demands while avoiding numerically unstable calculations.
 
 The difficulty in calculating the ELBO stem from terms involving 
 the *inverse* and the *determinant* of $\mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I}$.
 More specifically, we have
 $$
-\mathrm{ELBO}(\boldsymbol{\phi}^{\star}, \mathbf{Z}) = - 
-\frac{1}{2} \left( \log  \det \left ( \mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I} \right ) + \mathbf{y}^\top \left ( \mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I} \right )^{-1} \mathbf{y} + N \log {2\pi} \right) - \frac{\beta}{2} \mathrm{tr}(\mathbf{S}).
+\begin{split}
+\mathrm{ELBO}(\boldsymbol{\phi}^{\star}, \mathbf{Z}) & = - 
+\frac{1}{2} \left( \log  \det \left ( \mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I} \right ) + \mathbf{y}^\top \left ( \mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I} \right )^{-1} \mathbf{y} + N \log {2\pi} \right) \\\\ & \qquad - \frac{\beta}{2} \mathrm{tr}(\mathbf{S}).
+\end{split}
 $$
+It turns out that many of the required terms can be expressed in terms of the 
+symmetric positive definite matrix
+$$
+\mathbf{B} \triangleq \mathbf{U} \mathbf{U}^\top + \mathbf{I},
+$$
+where $\mathbf{U} \triangleq \beta^{\frac{1}{2}} \boldsymbol{\Lambda}$.
 
 First, let's tackle the inverse term. 
 Using the Woodbury identity, we can write it as 
@@ -769,23 +775,15 @@ $$
 \begin{align*}
 \mathbf{M} & \triangleq \mathbf{K}\_\mathbf{uu} + \beta \mathbf{K}\_\mathbf{uf} \mathbf{K}\_\mathbf{fu} \\\\
   & = \mathbf{L} \mathbf{L}^\top + \beta \mathbf{L} \mathbf{L}^{-1} \mathbf{K}\_\mathbf{uf} \mathbf{K}\_\mathbf{fu} \mathbf{L}^{-\top} \mathbf{L}^\top \\\\
-  & = \mathbf{L} \left( \mathbf{I} + \beta \boldsymbol{\Lambda} \boldsymbol{\Lambda}^\top \right) \mathbf{L}^\top.
+  & = \mathbf{L} \left( \mathbf{I} + \beta \boldsymbol{\Lambda} \boldsymbol{\Lambda}^\top \right) \mathbf{L}^\top \\\\
+  & = \mathbf{L} \mathbf{B} \mathbf{L}^{\top},
 \end{align*}
 $$
-Let us define
-$$
-\mathbf{B} \triangleq \mathbf{U} \mathbf{U}^\top + \mathbf{I},
-$$
-where $\mathbf{U} \triangleq \beta^{\frac{1}{2}} \boldsymbol{\Lambda}$.
-Therefore, we can write
-$$
-\mathbf{M} = \mathbf{L} \mathbf{B} \mathbf{L}^{\top},
-$$
-and its inverse is simply
+so its inverse is simply
 $$
 \mathbf{M}^{-1} = \mathbf{L}^{-\top} \mathbf{B}^{-1} \mathbf{L}^{-1}.
 $$
-Furthermore, we have
+Therefore, we have
 $$
 \begin{align*}
   \mathbf{C}^{-1} 
@@ -801,8 +799,7 @@ $$
 and $\mathbf{L}\_\mathbf{B}$ is the Cholesky factor of $\mathbf{B}$, 
 i.e. the lower triangular matrix such 
 that $\mathbf{L}\_\mathbf{B}\mathbf{L}\_\mathbf{B}^\top = \mathbf{B}$.
-
-This now gives
+All in all, we now have
 $$
 \begin{align*}
   \left(\mathbf{Q}\_\mathbf{ff} + \beta^{-1} \mathbf{I}\right)^{-1} 
@@ -854,9 +851,26 @@ $$
 \det \left( \mathbf{B} \right) \det \left( \beta^{-1} \mathbf{I} \right).
 \end{align*}
 $$
+We can re-use $\mathbf{L}\_\mathbf{B}$ to calculate $\det \left( \mathbf{B} \right)$
+in linear time.
 
-final trace term
+The last non-trivial component of the ELBO is the trace term, which can be 
+calculated as
+$$
+\frac{\beta}{2} \mathrm{tr}(\mathbf{S}) = \frac{\beta}{2} \mathrm{tr}\left(\mathbf{K}\_\mathbf{ff}\right) - \frac{1}{2} \mathrm{tr}\left(\mathbf{U} \mathbf{U}^\top \right),
+$$
+since
+$$
+\begin{align*}
+\mathrm{tr}\left(\mathbf{U} \mathbf{U}^\top\right) & = 
+\mathrm{tr}\left(\mathbf{U}^\top \mathbf{U}\right) \\\\ & = 
+\beta \cdot \mathrm{tr}\left(\boldsymbol{\Lambda} \boldsymbol{\Lambda}^\top\right) \\\\ & = 
+\beta \cdot \mathrm{tr}\left( \boldsymbol{\Psi}^{\top} \mathbf{K}\_\mathbf{uu} \boldsymbol{\Psi} \right).
+\end{align*}
+$$
+Again, we can re-use $\mathbf{U} \mathbf{U}^\top$ computed earlier.
 
+Finally, let us address the posterior predictive.
 Recall that 
 $$
 q\_{\boldsymbol{\phi}^{\star}}(\mathbf{u}) = \mathcal{N}(\mathbf{u} \mid \beta \mathbf{C}^{-1} \boldsymbol{\Psi} \mathbf{y}, \mathbf{C}^{-1}).
@@ -884,7 +898,7 @@ Alternatively, we can derive this by noting the following simple identity,
 $$
 \boldsymbol{\Psi}^\top \mathbf{C}^{-1} \boldsymbol{\Psi} = \boldsymbol{\Psi}^\top \mathbf{L} \mathbf{B}^{-1} \mathbf{L}^\top  \boldsymbol{\Psi} = \boldsymbol{\Lambda}^\top \mathbf{B}^{-1} \boldsymbol{\Lambda},
 $$
-and applying the rules for marginalizing Gaussians,
+and applying the rules for marginalizing Gaussians to obtain
 $$
 \begin{align*}
 q\_{\boldsymbol{\phi}^{\star}}(\mathbf{f}) 
