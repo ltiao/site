@@ -79,8 +79,6 @@ email: louis.tiao@sydney.edu.au
 highlight_name: true
 ---
 
-Louis Tiao is a machine learning researcher and PhD candidate at the University of Sydney. His research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Louis Tiao is a machine learning researcher and PhD candidate at the University of Sydney. His research interests are in probabilistic machine learning, and specifically includes approximate Bayesian inference, Gaussian processes, and its applications to areas such as Bayesian optimization and graph representation learning.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->

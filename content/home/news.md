@@ -21,7 +21,7 @@ content:
     category: news
     publication_type: ''
     author: ''
-    featured_only: true
+    featured_only: false
     exclude_featured: false
     exclude_future: false
     exclude_past: false
