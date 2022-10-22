@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/ltiao/site'
+    url: 'https://github.com/ltiao/tiao.io'
     content_dir: content
     branch: main
   avatar:
