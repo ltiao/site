@@ -77,8 +77,15 @@ features:
   comment:
     provider: disqus
     disqus:
-      shortname: 'louis-tiao'
+      shortname: louis-tiao
       show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
