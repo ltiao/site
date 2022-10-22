@@ -1,7 +1,7 @@
 ---
 widget: hero
 headless: true
-active: true
+active: false
 weight: 10
 hero_media: GaussianProcessPosteriorPredictive_ManimCE_v0.9.0.gif
 cta:
