@@ -77,7 +77,7 @@ features:
   comment:
     provider: disqus
     disqus:
-      shortname: louis-tiao
+      shortname: 'louis-tiao'
       show_count: true
     commento:
       url: ''
