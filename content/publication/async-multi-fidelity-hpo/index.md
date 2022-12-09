@@ -30,7 +30,7 @@ publication_short: ""
 abstract: We introduce a model-based asynchronous multi-fidelity method for hyperparameter and neural architecture search that combines the strengths of asynchronous Hyperband and Gaussian process-based Bayesian optimization. At the heart of our method is a probabilistic model that can simultaneously reason across hyperparameters and resource levels, and supports decision-making in the presence of pending evaluations. We demonstrate the effectiveness of our method on a wide range of challenging benchmarks, for tabular data, image classification and language modelling, and report substantial speed-ups over current state-of-the-art methods. Our new methods, along with asynchronous baselines, are implemented in a distributed framework which will be open sourced along with this publication.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: We introduce a model-based method for asynchronous multi-fidelity hyperparameter and neural architecture search that combines the strengths of asynchronous Hyperband and Gaussian process-based Bayesian optimization, achieving substantial speed-ups over current state-of-the-art methods on challenging benchmarks for tabular data, image classification, and language modeling.
 
 tags:
 - Machine Learning
