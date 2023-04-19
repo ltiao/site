@@ -1,22 +1,23 @@
 ---
 title: Efficient Cholesky decomposition of low-rank updates
-subtitle: A short and practical guide to efficiently computing the 
-  Cholesky decomposition of matrices perturbed by low-rank updates
-summary: A short and practical guide to efficiently computing the 
-  Cholesky decomposition of matrices perturbed by low-rank updates
-authors:
-- admin
+subtitle: A short and practical guide to efficiently computing the Cholesky
+  decomposition of matrices perturbed by low-rank updates
 date: 2023-04-16T11:16:03.167Z
+summary: A short and practical guide to efficiently computing the Cholesky
+  decomposition of matrices perturbed by low-rank updates
 draft: false
 featured: true
+authors:
+  - admin
+math: true
+tags:
+  - TensorFlow Probability
+  - Machine Learning
+  - Linear Algebra
 categories:
   - technical
-tags:
-- TensorFlow Probability
-- Machine Learning
-math: true
 image:
-  filename: featured
+  filename: paul-minami-tzph9aswxu-unsplash.jpg
   focal_point: Smart
   preview_only: false
 ---
