@@ -19,7 +19,7 @@ categories:
 image:
   filename: paul-minami-tzph9aswxu-unsplash.jpg
   focal_point: Smart
-  preview_only: false
+  preview_only: true
 ---
 
 Suppose we're given a positive semidefinite (PSD) 
