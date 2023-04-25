@@ -1,5 +1,5 @@
 ---
-title: One paper accepted to ICML2023!
+title: One paper accepted to ICML2023
 subtitle: Paper "Spherical Inducing Features for Orthogonally-Decoupled Gaussian
   Processes" accepted
 date: 2023-04-25T20:37:43.228Z
