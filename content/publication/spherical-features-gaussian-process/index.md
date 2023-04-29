@@ -47,7 +47,7 @@ links:
   url: '#'
 - name: Supplementary material
   url: '#'
-url_pdf: 'http://proceedings.mlr.press/v139/tiao21a/tiao21a.pdf'
+url_pdf: https://arxiv.org/abs/2304.14034
 url_code: '#'
 url_dataset: ''
 url_poster: '#'
