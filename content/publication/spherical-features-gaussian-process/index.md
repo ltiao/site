@@ -60,7 +60,7 @@ url_video: '#'
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   placement: 1
-  caption: 'A Tesseral harmonic $Y_{8,3}$'
+  caption: 'A *tesseral* surface harmonic of the first kind, $Y_{8,3}$'
   focal_point: Center
   preview_only: false
 
