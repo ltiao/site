@@ -54,9 +54,7 @@ and [Gaussian processes](tag/gaussian-processes), and their applications
 to [Bayesian optimization](tag/bayesian-optimization) 
 and [graph representation learning](#).
 
-In 2023, I am expecting to complete my PhD in Computer Science at  
-the [University of Sydney](https://www.sydney.edu.au/),
-where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
+In 2023, I am expecting to complete my PhD in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
 Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been highlighted as Oral and Spotlight talks.
 <!-- Some of our work has been recognized at premier conferences 
 such as [NeurIPS](#) and [ICML](#), where they have been highlighted as 
