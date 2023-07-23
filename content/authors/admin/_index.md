@@ -55,10 +55,10 @@ to [Bayesian optimization](tag/bayesian-optimization)
 and [graph representation learning](#).
 
 In 2023, I am expecting to complete my PhD in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
-Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been highlighted as Oral and Spotlight talks.
+Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been highlighted as Oral/Spotlight talks.
 <!-- Some of our work has been recognized at premier conferences 
 such as [NeurIPS](#) and [ICML](#), where they have been highlighted as 
-oral and spotlight talks. -->
+oral/spotlight talks. -->
 Before pursuing my doctorate, I obtained a BSc in Computer Science with 
 First Class Honours from 
 the [University of New South Wales (UNSW Sydney)](https://www.unsw.edu.au/), 
