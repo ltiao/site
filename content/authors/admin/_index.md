@@ -77,7 +77,7 @@ In the Summer and Fall of 2019, I completed a research internship at [Amazon](#)
 in Berlin, Germany, where I worked with [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/).
 Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#), 
 and [Victor Picheny](#) at [Secondmind Labs](#) in Cambridge, UK. 
-More recently, in Summer 2022, I continued my stay in Cambridge, r﻿eturning to Amazon once again to work with Aaron, Cédric, and Matthias.
+More recently, in Summer 2022, I continued my stay in Cambridge and returned to Amazon once again to work with Aaron, Cédric, and Matthias.
 
 <!-- As a researcher, I am passionate about pushing the boundaries of machine learning, and I aspire to make meaningful contributions to the field. My journey has been enriched by the outstanding people I've had the opportunity to collaborate with, both in academia and industry. I look forward to continuing my exploration of cutting-edge ML techniques and their applications, driving innovation, and advancing the field for the benefit of society. -->
 
