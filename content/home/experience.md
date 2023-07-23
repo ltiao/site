@@ -28,7 +28,7 @@ experience:
     company_logo: aws
     location: Cambridge, United Kingdom
     date_start: '2022-06-01'
-    date_end: ''
+    date_end: '2022-10-01'
     description: ''
 
   - title: Doctoral Placement Researcher
@@ -39,7 +39,7 @@ experience:
     date_start: '2021-10-01'
     date_end: '2022-05-01'
     description: |2-
-        I was a Student Researcher at [Secondmind](https://www.secondmind.ai/) (formerly known as PROWLER.io), a machine learning technology start-up based in Cambridge, UK with a strong focus on basic research and an excellent track record of scientific publications in the areas of *Gaussian processes*, *variational inference*, and *Bayesian optimization* (you may know them by their popular open-source library, [GPFlow](https://github.com/GPflow/GPflow)).
+        I was a Student Researcher at [Secondmind](https://www.secondmind.ai/) (formerly known as PROWLER.io), a machine learning technology start-up based in Cambridge, UK with a strong focus on basic research and an excellent track record of scientific publications in the areas of [Gaussian processes](tag/gaussian-processes), *variational inference*, and *Bayesian optimization* (you may know them by their popular open-source library, [GPFlow](https://github.com/GPflow/GPflow)).
 
   - title: Applied Scientist Intern
     company: Amazon Web Services
