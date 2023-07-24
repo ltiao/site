@@ -1,6 +1,6 @@
 ---
 title: Louis Tiao
-role: Machine Learning Researcher (PhD Candidate)
+role: Machine Learning Research Scientist (PhD Candidate)
 bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
 interests:
   - Probabilistic Machine Learning
@@ -63,20 +63,23 @@ Before pursuing my doctorate, I obtained a BSc in Computer Science with
 First Class Honours from 
 the [University of New South Wales (UNSW Sydney)](https://www.unsw.edu.au/), 
 where I majored in artificial intelligence (AI) and minored in mathematics.
-I began my professional journey as a Software Engineer specializing in ML 
+I began my professional career in ML as a software engineer
 at [National ICT Australia (NICTA)](https://en.wikipedia.org/wiki/NICTA), 
 which [later merged](https://www.zdnet.com/article/csiro-swallows-nicta-to-form-data61/) 
 into [CSIRO](www.csiro.au)'s [Data61](https://research.csiro.au/data61/)---the 
 AI research division of Australia's national science agency.
 
-Throughout my PhD, I've been fortunate to have had numerous rewarding industrial 
-research experiences where I had the privilege of collaborating with a few brilliant people.
-In the Summer and Fall of 2019, I completed a research internship at [Amazon](#)
+Throughout my PhD, I've been fortunate to have had multiple rewarding experiences
+in industrial research where I had the privilege of collaborating with a number 
+of brilliant individuals.
+In the Summer and Fall of 2019, I completed a research internship at [Amazon][]
 in Berlin, Germany, where I worked with [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/).
-Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#), 
-and [Victor Picheny](#) at [Secondmind Labs](#) in Cambridge, UK. 
-More recently, in Summer 2022, I extended my stay in Cambridge and returned to Amazon once again to work with Aaron, Cédric, and Matthias.
+Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#) 
+and [Victor Picheny](#) at [Secondmind Labs](https://www.secondmind.ai/) in Cambridge, UK. 
+Most recently, in Summer 2022, I extended my stay in Cambridge and returned to [Amazon][] once again to work with Aaron, Cédric, and Matthias.
 
 <!-- As a researcher, I am passionate about pushing the boundaries of machine learning, and I aspire to make meaningful contributions to the field. My journey has been enriched by the outstanding people I've had the opportunity to collaborate with, both in academia and industry. I look forward to continuing my exploration of cutting-edge ML techniques and their applications, driving innovation, and advancing the field for the benefit of society. -->
 
-<!-- {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}. -->
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv-louis-tiao.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+[Amazon]: https://aws.amazon.com/sagemaker/ "Amazon SageMaker"
