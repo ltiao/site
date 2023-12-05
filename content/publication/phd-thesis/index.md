@@ -36,7 +36,9 @@ featured: true
 links:
 - name: Preprint
   url: phd-thesis-louis-tiao.pdf
-# url_pdf: 
+- name: Acknowledgements
+  url: publication/phd-thesis/gratiae/
+# url_pdf: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
