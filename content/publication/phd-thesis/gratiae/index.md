@@ -6,6 +6,7 @@ draft: false
 share: false
 commentable: false
 editable: false
+widget: markdown
 
 # Optional header image (relative to `static/media/` folder).
 header:
