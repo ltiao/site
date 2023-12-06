@@ -10,4 +10,5 @@ image:
   focal_point: Smart
   preview_only: false
 ---
-W﻿ith thanks
+
+With thanks... 
