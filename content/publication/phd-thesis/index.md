@@ -37,7 +37,7 @@ links:
 - name: Preprint
   url: phd-thesis-louis-tiao.pdf
 - name: Acknowledgements
-  url: publication/phd-thesis/gratiae/
+  url: post/phd-thesis-acknowledgements/
 # url_pdf: '#'
 
 # Featured image
