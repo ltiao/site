@@ -36,7 +36,7 @@ featured: true
 links:
 - name: Preprint
   url: phd-thesis-louis-tiao.pdf
-- name: Acknowledgements
+- name: Unabridged Acknowledgements
   url: post/phd-thesis-acknowledgements/
 # url_pdf: '#'
 
@@ -62,6 +62,10 @@ image:
 # slides: example
 ---
 
+The full text is available as a single PDF file {{< staticref "publication/phd-thesis/phd-thesis-louis-tiao.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+
+You can also find a list of contents and PDFs corresponding to each individual chapter below:
+
 ### Table of Contents
 
 - Chapter 1: Introduction {{< staticref "publication/phd-thesis/contents/1 Introduction.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
@@ -73,16 +77,18 @@ image:
 - Appendix A: Numerical Methods for Improved Decoupled Sampling of Gaussian Processes {{< staticref "publication/phd-thesis/contents/A Numerical Methods for Improved Decoupled Sampling of Gaussian Processes.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
 - Bibliography {{< staticref "publication/phd-thesis/contents/Bibliography.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
 
+Please find *Chapter 1: Introduction* reproduced in full below:
+
 ## Introduction
 
 <!-- 
-{{% callout note %}}
+{{
 Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+{{
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/).
 
 ## Introduction
 
-- {{< staticref "uploads/cv-louis-tiao.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}} Background{{< /staticref >}} 
+- 
  -->

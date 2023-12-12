@@ -13,3 +13,9 @@ image:
 ---
 
 With thanks... 
+
+---
+
+The thesis can be found below:
+
+{{< cite page="/publication/phd-thesis" view=3 >}}
