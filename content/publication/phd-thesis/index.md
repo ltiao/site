@@ -44,7 +44,7 @@ links:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   focal_point: Center
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -64,12 +64,14 @@ image:
 
 ### Table of Contents
 
-- Chapter 1: Introduction {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
-- Chapter 2: Background {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
-- Chapter 3: Orthogonally-Decoupled Sparse Gaussian Processes with Spherical Neural Network Activation Features {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
-- Chapter 4: Cycle-Consistent Generative Adversarial Networks as a Bayesian Approximation {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
-- Chapter 5: Bayesian Optimisation by Classification with Deep Learning and Beyond {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
-- Chapter 6: Conclusion {{< staticref "#" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 1: Introduction {{< staticref "publication/phd-thesis/contents/1 Introduction.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 2: Background {{< staticref "publication/phd-thesis/contents/2 Background.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 3: Orthogonally-Decoupled Sparse Gaussian Processes with Spherical Neural Network Activation Features {{< staticref "publication/phd-thesis/contents/3 Orthogonally-Decoupled Sparse Gaussian Processes with Spherical Neural Network Activation Features.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 4: Cycle-Consistent Generative Adversarial Networks as a Bayesian Approximation {{< staticref "publication/phd-thesis/contents/4 Cycle-Consistent Generative Adversarial Networks as a Bayesian Approximation.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 5: Bayesian Optimisation by Classification with Deep Learning and Beyond {{< staticref "publication/phd-thesis/contents/5 Bayesian Optimisation by Classification with Deep Learning and Beyond.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Chapter 6: Conclusion {{< staticref "publication/phd-thesis/contents/6 Conclusion.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Appendix A: Numerical Methods for Improved Decoupled Sampling of Gaussian Processes {{< staticref "publication/phd-thesis/contents/A Numerical Methods for Improved Decoupled Sampling of Gaussian Processes.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
+- Bibliography {{< staticref "publication/phd-thesis/contents/Bibliography.pdf" "newtab" >}}{{< icon name="download" pack="fas" >}}{{< /staticref >}}
 
 ## Introduction
 
