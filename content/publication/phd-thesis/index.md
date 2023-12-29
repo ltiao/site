@@ -36,7 +36,7 @@ featured: true
 links:
 - name: Preprint
   url: phd-thesis-louis-tiao.pdf
-- name: Unabridged Acknowledgements
+- name: Full Acknowledgements
   url: post/phd-thesis-acknowledgements/
 # url_pdf: '#'
 
