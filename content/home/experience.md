@@ -39,7 +39,9 @@ experience:
     date_start: '2021-10-01'
     date_end: '2022-05-01'
     description: |2-
-        I was a Student Researcher at [Secondmind](https://www.secondmind.ai/) (formerly known as PROWLER.io), a machine learning technology start-up based in Cambridge, UK with a strong focus on basic research and an excellent track record of scientific publications in the areas of [Gaussian processes](tag/gaussian-processes), *variational inference*, and *Bayesian optimization* (you may know them by their popular open-source library, [GPFlow](https://github.com/GPflow/GPflow)).
+        As a student researcher at [Secondmind](https://www.secondmind.ai/) (formerly Prowler.io), a research-intensive AI startup renowned for its innovations in [Bayesian optimization (BO)](tag/bayesian-optimization/) and [Gaussian processes (GPs)](tag/gaussian-processes),  I contributed impactful research and open-source code aligned with their focus on advancing probabilistic ML. Specifically, I developed [open-source software](https://github.com/secondmind-labs/GPflux) to facilitate efficiently sampling from GPs, substantially improving their accessibility and functionality. Additionally, I led a research initiative to improve the integration of neural networks (NNs) with GP approximations, bridging a critical gap between probabilistic methods and deep learning. These efforts culminated in a [research paper](publication/spherical-features-gaussian-process) that was selected for an oral presentation at the prestigious International Conference on Machine Learning (ICML).
+
+        During my tenure, I had the privilege of collaborating with Vincent Dutordoir and Victor Picheny.
 
   - title: Applied Scientist Intern
     company: Amazon Web Services
