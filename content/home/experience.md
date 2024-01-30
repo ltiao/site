@@ -41,7 +41,7 @@ experience:
     description: |2-
         As a student researcher at [Secondmind](https://www.secondmind.ai/) (formerly Prowler.io), a research-intensive AI startup renowned for its innovations in [Bayesian optimization (BO)](tag/bayesian-optimization/) and [Gaussian processes (GPs)](tag/gaussian-processes),  I contributed impactful research and open-source code aligned with their focus on advancing probabilistic ML. Specifically, I developed [open-source software](https://github.com/secondmind-labs/GPflux) to facilitate efficiently sampling from GPs, substantially improving their accessibility and functionality. Additionally, I led a research initiative to improve the integration of neural networks (NNs) with GP approximations, bridging a critical gap between probabilistic methods and deep learning. These efforts culminated in a [research paper](publication/spherical-features-gaussian-process) that was selected for an oral presentation at the prestigious International Conference on Machine Learning (ICML).
 
-        During my tenure, I had the privilege of collaborating with Vincent Dutordoir and Victor Picheny.
+        During this period, I had the privilege of working with Vincent Dutordoir and Victor Picheny.
 
   - title: Applied Scientist Intern
     company: Amazon Web Services
@@ -51,7 +51,13 @@ experience:
     date_start: '2019-06-01'
     date_end: '2019-12-01'
     description: |2-
-        I spent the Summer-Fall of 2019 at Amazon in Berlin, Germany, conducting research in the area of [AutoML](/tag/automl/) in contribution to the [Automatic Model Tuning](https://arxiv.org/abs/2012.08489) service on [AWS SageMaker](https://aws.amazon.com/sagemaker/). I was fortunate to been given the opportunity to work with eminent researchers in the field, [Matthias Seeger](https://mseeger.github.io/), [Aaron Klein](https://aaronkl.github.io/), and [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/). Together, we tackled the challenges of extending *multi-fidelity Bayesian optimization* with *asynchronous parallelism*. The research developed during my internship culminated in a [research paper](publication/async-multi-fidelity-hpo/) and the release of our [code](https://autogluon.mxnet.io/api/autogluon.searcher.html#gpmultifidelitysearcher) as part of the open-source [AutoGluon](https://github.com/awslabs/autogluon) library.
+        As an applied scientist intern at Amazon Web Services (AWS), I contributed to the development of the [Automatic Model Tuning](https://arxiv.org/abs/2012.08489) functionality in [AWS SageMaker](https://aws.amazon.com/sagemaker/). My focus was on advancing [AutoML](/tag/automl/) and hyperparameter optimization, with a special emphasis on [Bayesian optimization (BO)](tag/bayesian-optimization/) methods. I spearheaded a research project aimed at integrating multi-fidelity BO with asynchronous parallelism, which substantially boosted the efficiency and scalability of the model-tuning process. This initiative led to the development of a [research paper](publication/async-multi-fidelity-hpo/) and the release of open-source code within the [AutoGluon](https://github.com/awslabs/autogluon) library, which served as the foundation for the development of the standalone [SyneTune](https://github.com/awslabs/syne-tune) library. 
+
+        During this period, I had the privilege of working with [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/).
+
+    # Collaborating with renowned experts like [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/), I acquired profound knowledge and experience in this domain.
+    
+    # I spent the Summer-Fall of 2019 at Amazon in Berlin, Germany, conducting research in the area of [AutoML](/tag/automl/) in contribution to the [Automatic Model Tuning](https://arxiv.org/abs/2012.08489) service on [AWS SageMaker](https://aws.amazon.com/sagemaker/). I was fortunate to been given the opportunity to work with eminent researchers in the field, [Matthias Seeger](https://mseeger.github.io/), [Aaron Klein](https://aaronkl.github.io/), and [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/). Together, we tackled the challenges of extending *multi-fidelity Bayesian optimization* with *asynchronous parallelism*. The research developed during my internship culminated in a [research paper](publication/async-multi-fidelity-hpo/) and the release of our [code](https://autogluon.mxnet.io/api/autogluon.searcher.html#gpmultifidelitysearcher) as part of the open-source [AutoGluon](https://github.com/awslabs/autogluon) library.
 
   - title: Software Engineer
     company: CSIRO's Data61
@@ -83,7 +89,7 @@ experience:
     date_start: '2013-11-01'
     date_end: '2014-02-01'
     description: |2-
-        I joined the CSIRO's Language and Social Computing team as a Summer Vacation Scholar for the summer of 2013-14 and worked on applying machine learning and natural language processing (NLP) techniques to develop a text classification system for automated *sentiment analysis*.
+        As a summer vacation scholar at CSIRO's Language and Social Computing team, I applied cutting-edge machine learning (ML) and natural language processing (NLP) techniques to build a text classification system for automated sentiment analysis.
 
 # - title: PhD Candidate
 #   company: University of Sydney
