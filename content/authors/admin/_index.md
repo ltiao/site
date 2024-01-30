@@ -76,7 +76,7 @@ in Berlin, Germany, where I worked with [Matthias Seeger](https://mseeger.github
 Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#) 
 and [Victor Picheny](#) at [Secondmind Labs](https://www.secondmind.ai/) in Cambridge, UK. 
 More recently, in Summer 2022, I extended my stay in Cambridge and returned to [Amazon][],
-reuniting remotely with my previous Berlin team.
+reuniting virtually with my previous Berlin team.
 
 <!-- once again to work with Aaron, Cédric, and Matthias. -->
 
