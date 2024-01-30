@@ -16,6 +16,6 @@ With thanks...
 
 ---
 
-The thesis can be found below:
+The full thesis text can be found below:
 
 {{< cite page="/publication/phd-thesis" view=3 >}}

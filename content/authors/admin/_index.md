@@ -54,8 +54,9 @@ and [Gaussian processes](tag/gaussian-processes), and their applications
 to [Bayesian optimization](tag/bayesian-optimization) 
 and [graph representation learning](#).
 
-In 2023, I am expecting to complete my PhD in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
+I've been pursuing a PhD candidate in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
 Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been highlighted as Oral/Spotlight talks.
+[My thesis]({{< relref "/publication/phd-thesis" >}}), now under submission, explores the integration of probabilistic ML with deep learning.
 <!-- Some of our work has been recognized at premier conferences 
 such as [NeurIPS](#) and [ICML](#), where they have been highlighted as 
 oral/spotlight talks. -->
@@ -69,15 +70,19 @@ which [later merged](https://www.zdnet.com/article/csiro-swallows-nicta-to-form-
 into [CSIRO](www.csiro.au)'s [Data61](https://research.csiro.au/data61/)---the 
 AI research division of Australia's national science agency.
 
-During my PhD, I've had the privilege of collaborating with exceptional individuals through multiple rewarding industrial research internships.
+During my PhD, I've had the privilege of collaborating with [exceptional individuals][] through multiple rewarding industrial research internships.
 In the Summer and Fall of 2019, I completed a research internship at [Amazon][]
 in Berlin, Germany, where I worked with [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/).
 Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#) 
 and [Victor Picheny](#) at [Secondmind Labs](https://www.secondmind.ai/) in Cambridge, UK. 
-More recently, in Summer 2022, I extended my stay in Cambridge and returned to [Amazon][] once again to work with Aaron, Cédric, and Matthias.
+More recently, in Summer 2022, I extended my stay in Cambridge and returned to [Amazon][],
+reuniting with my previous team.
+
+<!-- once again to work with Aaron, Cédric, and Matthias. -->
 
 <!-- As a researcher, I am passionate about pushing the boundaries of machine learning, and I aspire to make meaningful contributions to the field. My journey has been enriched by the outstanding people I've had the opportunity to collaborate with, both in academia and industry. I look forward to continuing my exploration of cutting-edge ML techniques and their applications, driving innovation, and advancing the field for the benefit of society. -->
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv-louis-tiao.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 [Amazon]: https://aws.amazon.com/sagemaker/ "Amazon SageMaker"
+[exceptional individuals]: {{< relref "/post/phd-thesis-acknowledgements" >}} "PhD Thesis Acknowledgements"
