@@ -54,7 +54,7 @@ and [Gaussian processes](tag/gaussian-processes), and their applications
 to [Bayesian optimization](tag/bayesian-optimization) 
 and [graph representation learning](#).
 
-I've been pursuing a PhD candidate in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
+I've been pursuing a PhD in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
 Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been highlighted as Oral/Spotlight talks.
 [My thesis]({{< relref "/publication/phd-thesis" >}}), now under submission, explores the integration of probabilistic ML with deep learning.
 <!-- Some of our work has been recognized at premier conferences 
