@@ -35,7 +35,7 @@ education:
   courses:
     - course: Ph.D. in Computer Science (Machine Learning)
       institution: University of Sydney
-      year: 2023 (Expected)
+      year: 2023
     - course: B.Sc. (Honours Class 1) in Computer Science (Artificial Intelligence and
         Mathematics)
       institution: University of New South Wales
@@ -54,9 +54,9 @@ and [Gaussian processes](tag/gaussian-processes), and their applications
 to [Bayesian optimization](tag/bayesian-optimization) 
 and [graph representation learning](#).
 
-I was a PhD candidate in Computer Science at the [University of Sydney](https://www.sydney.edu.au/), working with [Edwin Bonilla](#) and [Fabio Ramos](#).
-Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has been selected as Oral/Spotlight talks.
-My [thesis]({{< relref "/publication/phd-thesis" >}}), now under submission, explores the integration of probabilistic ML with deep learning.
+I recently submitted my [PhD thesis]({{< relref "/publication/phd-thesis" >}}) at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
+Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has routinely been selected as Oral/Spotlight talks.
+<!-- My [thesis], now under submission, explores the integration of probabilistic ML with deep learning. -->
 <!-- Some of our work has been recognized at premier conferences 
 such as [NeurIPS](#) and [ICML](#), where they have been highlighted as 
 oral/spotlight talks. -->
@@ -70,7 +70,7 @@ which [later merged](https://www.zdnet.com/article/csiro-swallows-nicta-to-form-
 into [CSIRO](www.csiro.au)'s [Data61](https://research.csiro.au/data61/)---the 
 AI research division of Australia's national science agency.
 
-During my PhD, I've had the privilege of collaborating with [exceptional individuals][] through multiple rewarding industrial research internships.
+During my PhD, I've had the privilege of collaborating with [exceptional people][] through multiple rewarding industrial research internships.
 In the Summer and Fall of 2019, I completed a research internship at [Amazon][]
 in Berlin, Germany, where I worked with [Matthias Seeger](https://mseeger.github.io/), [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), and [Aaron Klein](https://aaronkl.github.io/).
 Between Fall 2021 and Spring 2022, I worked with [Vincent Dutordoir](#) 
@@ -85,4 +85,4 @@ reuniting virtually with my former Berlin team.
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv-louis-tiao.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 [Amazon]: https://aws.amazon.com/sagemaker/ "Amazon SageMaker"
-[exceptional individuals]: {{< relref "/post/phd-thesis-acknowledgements" >}} "PhD Thesis Acknowledgements"
+[exceptional people]: {{< relref "/post/phd-thesis-acknowledgements" >}} "PhD Thesis Acknowledgements"
