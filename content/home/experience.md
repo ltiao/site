@@ -42,9 +42,9 @@ experience:
     date_start: '2021-10-01'
     date_end: '2022-05-01'
     description: |2-
-        As a student researcher at [Secondmind](https://www.secondmind.ai/) (formerly Prowler.io), a research-intensive AI startup renowned for its innovations in [Bayesian optimization (BO)](tag/bayesian-optimization/) and [Gaussian processes (GPs)](tag/gaussian-processes),  I contributed impactful research and open-source code aligned with their focus on advancing probabilistic ML. Specifically, I developed [open-source software](https://github.com/secondmind-labs/GPflux) to facilitate efficiently sampling from GPs, substantially improving their accessibility and functionality. Additionally, I led a research initiative to improve the integration of neural networks (NNs) with GP approximations, bridging a critical gap between probabilistic methods and deep learning. These efforts culminated in a [research paper](publication/spherical-features-gaussian-process) that was selected for an oral presentation at the prestigious International Conference on Machine Learning (ICML).
+        As a student researcher at [Secondmind](https://www.secondmind.ai/) (formerly Prowler.io), a research-intensive AI startup renowned for its innovations in [Bayesian optimization (BO)](tag/bayesian-optimization/) and [Gaussian processes (GPs)](tag/gaussian-processes), I contributed impactful research and open-source code aligned with their focus on advancing probabilistic ML. Specifically, I developed [open-source software](https://github.com/secondmind-labs/GPflux) to facilitate sampling efficiently from GPs, substantially improving their accessibility and functionality. Additionally, I led a research initiative to improve the integration of neural networks (NNs) with GP approximations, bridging a critical gap between probabilistic methods and deep learning. These efforts culminated in a [research paper](publication/spherical-features-gaussian-process) that was selected for an oral presentation at the [International Conference on Machine Learning (ICML)](#).
 
-        During this period, I had the privilege of working with Vincent Dutordoir and Victor Picheny.
+        I had the privilege of collaborating closely with Vincent Dutordoir and Victor Picheny during this period.
 
   - title: Applied Scientist Intern
     company: Amazon Web Services
