@@ -44,17 +44,14 @@ featured: true
 
 links:
 - name: Conference Proceeding
-  url: '#'
-- name: Supplementary material
-  url: '#'
+  url: https://proceedings.mlr.press/v202/tiao23a.html
 url_pdf: https://arxiv.org/abs/2304.14034
 url_code: https://github.com/ltiao/spherical-orthogonal-gaussian-processes
 url_dataset: ''
 url_poster: poster.pdf
 url_project: ''
-url_slides: '#'
+url_slides: https://docs.google.com/presentation/d/14Gf2pmvotLVpKD7k3JQFTGV-ywUpuVaHf5wm1InLd-U/edit?usp=sharing
 url_source: ''
-url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

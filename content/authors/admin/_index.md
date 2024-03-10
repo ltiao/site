@@ -1,36 +1,40 @@
 ---
+# Display name
 title: Louis Tiao
+
+# Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
+
+# Full name (for SEO)
+first_name: Louis
+last_name: Tiao
+
+# Status emoji
+status:
+  icon: ☕️
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position/tagline
 role: Machine Learning Research Scientist (PhD Candidate)
+
+# Organizations/Affiliations to show in About widget
+organizations:
+  - name: University of Sydney
+    url: https://www.sydney.edu.au/
+
+# Short bio (displayed in user profile at end of posts)
 bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
+
+# Interests to show in About widget
 interests:
   - Probabilistic Machine Learning
   - Approximate Bayesian Inference
   - Gaussian Processes
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: /#contact
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/louistiao
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/ltiao
-    label: Follow me on GitHub
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/ltiao
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=5teyYXcAAAAJ
-organizations:
-  - name: University of Sydney
-    url: https://www.sydney.edu.au/
-  - name: CSIRO's Data61
-    url: https://www.data61.csiro.au/
+  - Bayesian Optimization
+
+# Education to show in About widget
 education:
   courses:
     - course: Ph.D. in Computer Science (Machine Learning)
@@ -40,10 +44,35 @@ education:
         Mathematics)
       institution: University of New South Wales
       year: 2015
-superuser: true
-last_name: Tiao
+
+# Social/Academic Networking
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/louistiao
+    label: Follow me on Twitter
+    display:
+      header: true
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=5teyYXcAAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/ltiao
+    label: Follow me on GitHub
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/ltiao
+
+
+# Highlight the author in author lists? (true/false)
 highlight_name: true
-first_name: Louis
 email: louis.tiao@sydney.edu.au
 ---
 
