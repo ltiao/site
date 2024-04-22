@@ -3,7 +3,7 @@
 title: Louis Tiao
 
 # Name pronunciation (optional)
-# name_pronunciation: Chien Shiung Wu
+name_pronunciation: loo-EE tee-OW
 
 # Full name (for SEO)
 first_name: Louis
@@ -17,12 +17,14 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Machine Learning Research Scientist (PhD Candidate)
+role: PhD Candidate (AI & Machine Learning)
+# role: Research Scientist (AI & Machine Learning)
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Sydney
     url: https://www.sydney.edu.au/
+# - name: Meta, Central Applied Science (CAS) Team
 
 # Short bio (displayed in user profile at end of posts)
 bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
@@ -59,8 +61,8 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
+  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=5teyYXcAAAAJ
   - icon: github
     icon_pack: fab
