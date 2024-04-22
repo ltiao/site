@@ -6,10 +6,10 @@ type: landing
 
 sections:
   - block: hero
-    content:
-      text: |-
-        <p style="margin-bottom:300px;"></p>
     design:
+      spacing:
+        # Customize the section spacing. Order is top, right, bottom, left.
+        padding: ['180px', '0', '180px', '0']
       background:
         # Choose a color such as from https://html-color-codes.info
         color: 'black'
