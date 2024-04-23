@@ -19,7 +19,7 @@ marketing:
     local_business_type: ''
     org_name: ''
     description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    twitter: 'louistiao'
   analytics:
     google_analytics: 'G-5BEWE1PQPG'
     baidu_tongji: ''
@@ -81,6 +81,13 @@ features:
     disqus:
       shortname: louis-tiao
       show_count: true
+    commento:
+      url: ''
+    giscus:
+      repo: ''
+      repo_id: ''
+      category: ''
+      category_id: ''
   search:
     provider: wowchemy
     algolia:
