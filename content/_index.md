@@ -66,14 +66,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        # - title: Research Scientist
-        #   company: Meta Platforms
-        #   company_url: ''
-        #   company_logo: meta
-        #   location: New York City, USA
-        #   date_start: '2024-06-17'
-        #   date_end: ''
-        #   description: 'TBD'
+        - title: Research Scientist
+          company: Meta
+          company_url: https://research.facebook.com/teams/cas/
+          company_logo: meta
+          location: New York, USA
+          date_start: '2024-06-24'
+          date_end: ''
+          description: ''
         # - title: Research Associate
         #   company: University of Oxford
         #   company_url: ''

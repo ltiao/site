@@ -17,14 +17,14 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate (AI & Machine Learning)
-# role: Research Scientist (AI & Machine Learning)
+# role: PhD Candidate (AI & Machine Learning)
+role: Research Scientist (AI, Machine Learning)
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Sydney
-    url: https://www.sydney.edu.au/
-# - name: Meta, Central Applied Science (CAS) Team
+# - name: University of Sydney
+# url: https://www.sydney.edu.au/
+# - name: Meta (Central Applied Science Team)
 
 # Short bio (displayed in user profile at end of posts)
 bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
