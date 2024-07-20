@@ -70,8 +70,8 @@ sections:
           company: Meta
           company_url: https://research.facebook.com/teams/cas/
           company_logo: meta
-          location: New York, USA
-          date_start: '2024-06-24'
+          location: New York, NY, United States
+          date_start: '2024-08-05'
           date_end: ''
           description: ''
         # - title: Research Associate
@@ -93,7 +93,7 @@ sections:
               As an applied scientist intern at Amazon Web Services (AWS), I led an explorative research project focused on addressing the challenges of hyperparameter optimization for large language models (LLMs). Our primary objective was to gain a comprehensive understanding of the scaling behavior of LLMs and investigate the feasibility of extrapolating optimal hyperparameters from smaller LLMs to their massive counterparts. This hands-on work involved orchestrating the parallel training of multiple LLMs from scratch across numerous GPU cloud instances to gain insights into their scaling dynamics.
 
               During this internship, I was fortunate to be reunited with [Aaron Klein](https://aaronkl.github.io/), [Matthias Seeger](https://mseeger.github.io/), and [Cédric Archambeau](http://www0.cs.ucl.ac.uk/staff/c.archambeau/), with whom I had previously collaborated during an earlier internship at AWS Berlin.
-        - title: Doctoral Placement Researcher
+        - title: Doctoral Student Researcher
           company: Secondmind
           company_url: https://www.secondmind.ai/
           company_logo: secondmind

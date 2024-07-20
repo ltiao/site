@@ -18,13 +18,13 @@ superuser: true
 
 # Role/position/tagline
 # role: PhD Candidate (AI & Machine Learning)
-role: Research Scientist (AI, Machine Learning)
+role: Research Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
 # - name: University of Sydney
 # url: https://www.sydney.edu.au/
-# - name: Meta (Central Applied Science Team)
+- name: Meta - Central Applied Science (CAS) Team, NYC
 
 # Short bio (displayed in user profile at end of posts)
 bio: Thanks for stopping by! Let's connect -- drop me a message or follow me
@@ -72,10 +72,9 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/ltiao
 
-
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-email: louis.tiao@sydney.edu.au
+email: louis@tiao.io
 ---
 
 Hi. I am Louis Tiao, a machine learning (ML) research scientist with a broad 
@@ -84,13 +83,25 @@ on [approximate Bayesian inference](tag/gaussian-processes)
 and [Gaussian processes](tag/gaussian-processes), and their applications 
 to [Bayesian optimization](tag/bayesian-optimization) 
 and [graph representation learning](#).
-
-I recently submitted my [PhD thesis]({{< relref "/publication/phd-thesis" >}}) at the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
+I obtained [my PhD]({{< relref "/publication/phd-thesis" >}}) from the [University of Sydney](https://www.sydney.edu.au/), where I worked with [Edwin Bonilla](#) and [Fabio Ramos](#).
 Our research has garnered recognition at premier conferences like [NeurIPS](#) and [ICML](#), where our work has routinely been selected as Oral/Spotlight talks.
 <!-- My [thesis], now under submission, explores the integration of probabilistic ML with deep learning. -->
 <!-- Some of our work has been recognized at premier conferences 
 such as [NeurIPS](#) and [ICML](#), where they have been highlighted as 
 oral/spotlight talks. -->
+
+Starting in August, I will be joining [Meta](https://about.meta.com/) 
+in New York City as a 
+Research Scientist in the 
+Adaptive Experimentation (AE) arm of the 
+[Central Applied Science (CAS) Team](https://research.facebook.com/teams/cas/). 
+In this role, I will continue to advance the frontiers of 
+[Bayesian optimization](tag/bayesian-optimization), 
+[Gaussian processes](tag/gaussian-processes), and more broadly, sample-efficient 
+decision-making and [probabilistic modeling](/tag/probabilistic-models/), 
+with a focus on applications in [automated machine learning (AutoML)](tag/automl) 
+and [deep learning](tag/deep-learning).
+
 Before pursuing my doctorate, I obtained a BSc in Computer Science with 
 First Class Honours from 
 the [University of New South Wales (UNSW Sydney)](https://www.unsw.edu.au/), 

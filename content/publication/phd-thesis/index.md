@@ -38,7 +38,7 @@ links:
   url: phd-thesis-louis-tiao.pdf
 - name: Full Acknowledgements
   url: post/phd-thesis-acknowledgements/
-# url_pdf: '#'
+url_pdf: https://hdl.handle.net/2123/32803
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
